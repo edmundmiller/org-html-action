@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "org-html-action",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Action to create HTML files from Org files",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -10,14 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/emiller88/org-html-action.git"
   },
   "keywords": [
     "actions",
     "node",
-    "setup"
+    "setup",
+    "emacs",
+    "org"
   ],
-  "author": "YourNameOrOrganization",
+  "author": "Edmund Miller",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.0.0"
