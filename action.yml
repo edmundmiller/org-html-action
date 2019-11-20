@@ -1,10 +1,20 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: "Org HTML Action"
+description: "Action to create HTML files from Org files"
+author: "Edmund Miller"
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  docs-dir:
+    description: "Documentation Directory"
+    required: true
+    default: "docs"
+outputs:
+  output-dir:
+    description: "Output Directory"
+    required: true
+    default: "public"
+  output-type:
+    description: "Type of output files"
+    default: "html"
+
 runs:
-  using: 'node12'
-  main: 'lib/main.js'
+  using: "node12"
+  main: "lib/main.js"
