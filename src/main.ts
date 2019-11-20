@@ -1,5 +1,6 @@
 import * as core from '@actions/core';
 import {wait} from './wait'
+import * as exec from "@actions/exec";
 
 async function run() {
   try {
