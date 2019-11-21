@@ -4,6 +4,8 @@ A building block for your workflows. Recommended used with [nix-emacs-ci](https:
 
 Inspired by [Consistent Technical Documents Using Emacs and Org Mode](https://www.youtube.com/watch?v=0g9BcZvQbXU&feature=emb_title)
 
+For use with [org-html-themes](https://github.com/fniessen/org-html-themes)
+
 ## Inputs:
 
 ### `docs-dir`
@@ -36,6 +38,12 @@ Use with:
 
 - [nix-emacs-ci](https://github.com/purcell/nix-emacs-ci)
 - [github-pages-action](https://github.com/marketplace/actions/github-pages-action)
+
+add this to the top of all of your org files
+
+```org
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/THEME-NAME.setup
+```
 
 ```yaml
 name: github pages
