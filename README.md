@@ -24,6 +24,8 @@ The type of files to output. Default `"html"`
 
 ## Usage:
 
+WIP: For now you must put `publish.el` in your project root.
+
 If you choose to manange your own installed Emacs on the path of your action:
 
 ```yaml
