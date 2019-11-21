@@ -1534,7 +1534,7 @@ function run() {
                 "--batch",
                 "--no-init-file",
                 "--load",
-                "src/publish.el",
+                "publish.el",
                 "--funcall",
                 "org-publish-all"
             ]);
