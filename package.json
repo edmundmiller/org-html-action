@@ -22,7 +22,7 @@
   "author": "Edmund Miller",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.1.3",
+    "@actions/core": "^1.9.1",
     "@actions/exec": "^1.0.1",
     "@actions/io": "^1.0.1"
   },
